@@ -1,0 +1,32 @@
+.add__files {
+  margin: 0 auto;
+  width: 352px;
+  height: 100vh;
+}
+
+.add__articles-item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 24px;
+  gap: 98px;
+
+  width: 294px;
+  height: 38px;
+
+}
+.add__articles-item::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 300px;
+  rotate: 90deg;
+  background-color: rgba(160, 160, 177, 0.3);
+  position: absolute;
+  top: -100px;
+  left: 155px;
+}
+.container-add {
+
+}

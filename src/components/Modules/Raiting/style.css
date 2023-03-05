@@ -1,0 +1,82 @@
+.rating__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 128%;
+  color: #0a001b;
+  width: 342px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.rating__cards {
+  width: 342px;
+  height: 472px;
+  background: #ffffff;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.rating__card_profile {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.rating__card {
+  border-bottom: 1px solid rgba(160, 160, 177, 0.3);
+  display: flex;
+  width: 294px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating__card_avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.rating__card_title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 132%;
+  color: #0a001b;
+  margin-left: 15px;
+}
+
+.rating__card_result {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 132%;
+  color: #0a001b;
+}
+
+.rating__card_money-info {
+  display: flex;
+  align-items: center;
+}
+
+.rating__card:last-child {
+  border: none;
+}
+
+@media (max-width: 320px) {
+  .rating__cards {
+    max-width: 320px;
+    height: 100%;
+    margin-left: 10px;
+  }
+  .rating__title {
+    margin-left: 10px;
+  }
+}

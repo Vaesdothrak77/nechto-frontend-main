@@ -1,0 +1,105 @@
+.header {
+  width: 342px;
+  margin: 0 auto;
+}
+
+.header__position {
+  position: relative;
+  height: 250px;
+}
+
+.header__bigpic {
+  right: -40px;
+  position: absolute;
+}
+
+.header__smolpic {
+  position: absolute;
+  bottom: 60px;
+}
+
+.header__logo {
+}
+
+.headerlessons {
+  position: relative;
+  margin: 0 auto;
+  max-width: 425px;
+  height: 420px;
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.headerlessons__header {
+  display: flex;
+  width: 342px;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+.headerlessons__logo {
+  width: 92px;
+  margin-left: 110px;
+}
+
+.headerlessons__back {
+  width: 16px;
+  height: 16px;
+}
+
+.headerlessons__play {
+  width: 102px;
+  height: 132px;
+  margin-top: 71px;
+}
+
+.season__month {
+  display: flex;
+  justify-content: center;
+}
+
+.modules__title {
+  position: relative;
+  left: 40px;
+}
+
+.select-month {
+  position: relative;
+  right: 50px;
+  top: -3px;
+  background-color: #e4e1e9;
+  border: none;
+
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 128%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  text-transform: lowercase;
+
+  color: #0a001b;
+}
+
+@media (max-width: 320px) {
+  .header__logo {
+    margin: 0 5px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .headerlessons {
+    margin-left: 15px;
+    max-width: 320px;
+    height: 420px;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,70 @@
+.button__centr {
+  width: 342px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.homework__button {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 132%;
+  color: #ffffff;
+  background: #0a001b;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  width: 342px;
+  height: 69px;
+  border: 1px solid #0a001b;
+  border-radius: 16px;
+}
+.books-link {
+  color: #0a001b;
+}
+
+.home__button {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 132%;
+  color: #ffffff;
+  background: #0a001b;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  width: 342px;
+  height: 69px;
+  border: 1px solid #0a001b;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.abstract__button {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 132%;
+  color: #0a001b;
+  background: #ffffff;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  width: 342px;
+  height: 69px;
+  border: none;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abstract__img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 320px) {
+  .button__centr button {
+    width: 320px;
+    margin: 20px 7px;
+  }
+}

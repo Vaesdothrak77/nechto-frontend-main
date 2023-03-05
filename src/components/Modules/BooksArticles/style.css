@@ -1,0 +1,218 @@
+.booksArtic__container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 342px;
+  height: 100%;
+}
+
+.article-title {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 128%;
+
+  display: flex;
+  align-items: center;
+  text-transform: lowercase;
+
+  color: #0a001b;
+}
+
+.add-article {
+  width: 342px;
+  height: 444px;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+}
+
+.articles__container {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  padding: 16px 24px;
+
+  width: 342px;
+  height: 394px;
+
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08); */
+
+  width: 342px;
+  height: 472px;
+  background: #ffffff;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.articles-item {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 15px;
+
+  height: 88px;
+
+  /* border-bottom: 1px solid rgba(160, 160, 177, 0.3); */
+
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.articles-item::before {
+  content: "";
+  width: 1px;
+  height: 265px;
+  background-color: rgba(160, 160, 177, 0.3);
+  display: block;
+  rotate: 90deg;
+
+  position: absolute;
+  left: 145px;
+  top: -65px;
+}
+
+.books-section {
+}
+
+.books__items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.books-title {
+  margin: 0 auto;
+
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 128%;
+
+  display: flex;
+  align-items: center;
+  text-transform: lowercase;
+
+  color: #0a001b;
+}
+
+.books__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.books__item-header {
+  display: flex;
+  gap: 50px;
+}
+
+.books__header-title {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 132%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #0a001b;
+}
+
+.books__image {
+  width: 80px;
+  height: 125px;
+
+  background: #553a3a;
+  border-radius: 16px;
+}
+.books__author {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 132%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #0a001b;
+}
+
+.text__books {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 132%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #0a001b;
+}
+
+@media (max-width: 320px) {
+  .booksArtic__container {
+    width: 320px;
+  }
+  .article-title {
+    margin-left: 20px;
+  }
+  .articles__container {
+    max-width: 320px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .articles-item {
+    width: 320px;
+    height: 100%;
+  }
+  .books-section {
+    max-width: 320px;
+    height: 100%;
+    margin-left: 15px;
+  }
+  .articles__container {
+    padding: 0;
+    width: 320px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .articles-item::before {
+    left: 145px;
+    top: -100px;
+  }
+
+  .add-article {
+    max-width: 310px;
+    height: 424px;
+    margin: 0 auto;
+  
+    background: #ffffff;
+    box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+  }
+  .articles__container {
+    max-width: 320px;
+    height: 100%;
+    margin-left: 10px;
+  }
+
+ 
+}

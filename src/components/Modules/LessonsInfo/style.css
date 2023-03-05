@@ -1,0 +1,116 @@
+.lessons {
+  background: #ffffff;
+  box-shadow: 0px 2px 14px rgb(0 0 0 / 8%);
+  border-radius: 16px;
+  margin: 0 auto;
+  width: 342px;
+  margin-top: -50px;
+
+  position: relative;
+  right: 15px;
+}
+.lessons__materials {
+  float: left;
+}
+.material__title {
+  position: relative;
+  left: 40px;
+}
+
+.material__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 128%;
+
+  display: flex;
+  align-items: center;
+  text-transform: lowercase;
+
+  color: #000000;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.modules__overflow {
+  width: 400px;
+}
+.modules__card {
+  display: flex;
+  align-items: center;
+  width: 442px;
+  margin: 0 auto;
+}
+
+.pict__item {
+}
+
+
+.material__item {
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 30px;
+}
+
+.material__item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.lessons__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 132%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.lessons__subtitle {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 132%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.lessons__text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 132%;
+  color: #000000;
+  margin: 0;
+}
+
+.lessons__padding {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 322px;
+  height: 264px;
+  margin: 0 auto;
+
+  padding: 24px;
+
+
+  background: #ffffff;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+
+}

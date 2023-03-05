@@ -1,0 +1,261 @@
+.guests__info {
+}
+.guests__container {
+  margin: 0 auto;
+  width: 352px;
+}
+.gests__hight {
+  height: 100vh;
+}
+
+.video__guests-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 0 auto;
+
+  width: 100%;
+  height: 100%;
+}
+
+.guests__title {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 128%;
+
+  display: flex;
+  align-items: flex-start;
+  text-transform: lowercase;
+
+  margin-left: 13px;
+  color: #0a001b;
+}
+.guests__info-name {
+  margin-top: 13px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.guests__info-namevideo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 132%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #0a001b;
+}
+.info-name::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 300px;
+  background-color: rgba(160, 160, 177, 0.3);
+  rotate: 90deg;
+  position: absolute;
+  bottom: -180px;
+  left: 70px;
+}
+.guests__info-item {
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+
+  width: 342px;
+  height: 420px;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+}
+
+.info-name {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 132%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #0a001b;
+  position: relative;
+}
+
+.guests__name-block {
+  position: relative;
+
+  top: -80px;
+  left: 17px;
+
+  width: 342px;
+  height: 116px;
+
+  padding: 24px;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+}
+
+.guests-btn {
+  margin-top: 250px;
+}
+
+.video-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 16px 24px;
+  gap: 16px;
+
+  width: 342px;
+  height: 732px;
+
+  margin: 50px auto;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.discription__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.discription__container::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 340px;
+  background-color: rgba(160, 160, 177, 0.3);
+  rotate: 90deg;
+  position: absolute;
+  left: 80px;
+  top: -40px;
+}
+
+.info-name-description {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 132%;
+
+  display: flex;
+  align-items: center;
+  text-transform: lowercase;
+
+  color: #0a001b;
+}
+.guests__name {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 132%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #0a001b;
+}
+
+.guests__description {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 132%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #0a001b;
+}
+
+.info-name_name {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 132%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #0a001b;
+}
+
+.guest__image {
+}
+
+@media (max-width: 320px) {
+  .guests__info {
+    max-width: 320px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .guests__info-name {
+    max-width: 320px;
+  }
+
+  .info-name {
+    font-size: 18px;
+  }
+  .info-name::before {
+    bottom: -170px;
+    height: 280px;
+  }
+  .discription__container::before {
+    display: block;
+    width: 1px;
+    height: 300px;
+    background-color: rgba(160, 160, 177, 0.3);
+    rotate: 90deg;
+    position: absolute;
+    left: 50px;
+    top: -20px;
+  }
+  .video-item {
+    max-width: 290px;
+    height: 100vh;
+    margin-left: 10px;
+  }
+
+  .guests__name-block {
+    position: relative;
+
+    top: -80px;
+    left: -8px;
+
+    width: 320px;
+    height: 100%;
+
+    padding: 24px;
+
+    background: #ffffff;
+    box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+  }
+}

@@ -1,0 +1,10 @@
+@import url(./fonts/fonts.css);
+
+body {
+  margin: 0px;
+  background: linear-gradient(180deg, #e5e2ea 56.77%, #c8c3d2 100%);
+  
+  margin: 0 auto;
+  max-width: 425px;
+  height: 100%;
+}

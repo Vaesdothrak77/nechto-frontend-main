@@ -1,0 +1,117 @@
+.modules {
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+}
+
+.modules__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 128%;
+  width: 342px;
+  margin: 0 auto;
+}
+
+.modules__overflow {
+  overflow-x: auto;
+  max-width: 425px;
+  margin-top: 25px;
+  height: 235px;
+}
+
+.modules__image {
+  width: 342px;
+  height: 224px;
+  margin-right: 15px;
+}
+
+.modules__card {
+  display: flex;
+  align-items: center;
+  width: 342px;
+  margin: 0 auto;
+}
+
+.modules__water {
+  padding: 20px;
+}
+
+.module__card_img {
+  width: 163px;
+  height: 224px;
+}
+
+.module {
+  width: 342px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.module__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 16px;
+}
+.modules__image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__modules {
+  max-width: 425px;
+  height: 132px;
+  background: #e5e2ea;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  position: relative;
+  right: 30px;
+}
+.black-play {
+  position: absolute;
+  top: 85px;
+  left: 50px;
+}
+
+.header__logo_modules {
+  width: 91px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+
+
+@media (max-width: 320px) {
+  .season__month {
+    display: flex;
+  }
+  .modules__overflow {
+    overflow-x: auto;
+    max-width: 325px;
+    margin: 0 auto;
+    height: 235px;
+  }
+  .modules__title {
+    left: 10px;
+  }
+  .module__cards{
+    width: 320px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .module__cards img{
+    width: 140px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+
+  .select-month {
+    left: 0px;
+  }
+}
